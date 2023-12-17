@@ -6,7 +6,7 @@ const Hero = () => {
     <section
       id="home"
       // className={` sm:bg-contain bg-hero-pattern bg-cover xl:bg-contain lg:bg-cover xs:bg-contain bg-no-repeat flex md:flex-row flex-col ${styles.paddingY}`}
-      className={` sm:bg-contain bg-[url('./assets/heroimg.jpg')] bg-cover xl:bg-cover lg:bg-cover  elg:bg-cover xs:bg-contain bg-no-repeat flex md:flex-row flex-col ${styles.paddingY}`}
+      className={` sm:bg-contain bg-[url('./assets/heroimg.jpg')] bg-cover xl:bg-cover lg:bg-cover  elg:bg-cover exs:bg-contain xs:bg-contain bg-no-repeat flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div
         className={` bg-gradient-to-r from-green-400 to-blue-500 flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-22 px-6 py-8 mt-80 lg:ml-16

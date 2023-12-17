@@ -2,7 +2,7 @@ const styles = {
   boxWidth: 'xl:max-w-[1280px] w-full',
 
   heading2:
-    'font-poppins font-semibold xs:text-[38px] text-[40px] sm:text-[23px] text-analogousColor1 xl:leading-[76.8px] xs:leading-[32px] sm:leading-[35px] leading-[66.8px] w-full xs:text-[25px]',
+    'font-poppins font-semibold xs:text-[28px] text-[40px] sm:text-[23px] text-analogousColor1 xl:leading-[76.8px] xs:leading-[32px] sm:leading-[35px] leading-[66.8px] w-full xs:text-[25px]',
   paragraph:
     'font-poppins font-normal text-black sm:text-[12px] text-[16px] leading-[22px] exs:text-[12px]',
 
