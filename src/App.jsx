@@ -4,7 +4,7 @@ import { Navbar, Footer, Hero, Digital, WebMobile } from './components';
 
 const App = () => {
   return (
-    <div className="  w-full overflow-hidden">
+    <div className=" w-full overflow-hidden">
       <div className={` bg-primaryColor ${Style.paddingX} ${Style.flexCenter}`}>
         <div className={`${Style.boxWidth}`}>
           <Navbar />

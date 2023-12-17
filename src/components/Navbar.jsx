@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="  w-full flex py-2 justify-between items-center navbar">
+    <nav className=" w-full flex py-2 justify-between items-center navbar">
       <a href="https://atdigital.io/" target="_blank" rel="noreferrer">
         <img src={logo} alt="logo" className="w-[184px] h-[72px]" />
       </a>
