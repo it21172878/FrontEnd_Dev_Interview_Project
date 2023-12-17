@@ -2,8 +2,9 @@ const styles = {
   boxWidth: 'xl:max-w-[1280px] w-full',
 
   heading2:
-    'font-poppins font-semibold xs:text-[38px] text-[40px] text-analogousColor1 xs:leading-[76.8px] leading-[66.8px] w-full',
-  paragraph: 'font-poppins font-normal text-black text-[16px] leading-[30.8px]',
+    'font-poppins font-semibold xs:text-[38px] text-[40px] sm:text-[23px] text-analogousColor1 xl:leading-[76.8px] xs:leading-[32px] sm:leading-[35px] leading-[66.8px] w-full xs:text-[25px]',
+  paragraph:
+    'font-poppins font-normal text-black sm:text-[12px] text-[16px] leading-[22px] exs:text-[12px]',
 
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-center items-start',
@@ -24,7 +25,8 @@ export const layout = {
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
   sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
 
-  sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
+  sectionInfo: `flex-1 ${styles.flexStart} flex-col exs:text-center exs:items-center xs:text-center xs:items-center elg:text-start ss:text-start sm:text-start md:text-start lg:text-start xl:text-start
+  elg:items-start ss:items-start sm:items-start md:items-start lg:items-start xl:items-start`,
 };
 
 export default styles;

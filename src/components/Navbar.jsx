@@ -8,17 +8,21 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="  w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="logo" className="w-[124px] h-[32px]" />
+    <nav className="  w-full flex py-2 justify-between items-center navbar">
+      <a href="https://atdigital.io/" target="_blank" rel="noreferrer">
+        <img src={logo} alt="logo" className="w-[184px] h-[72px]" />
+      </a>
       <ul className=" list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-poppins font-normal cursor-pointer hover:text-secondaryColor text-[16px] ${
               index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
             } text-white `}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`${nav.link}`} target="_blank" rel="noreferrer">
+              {nav.title}
+            </a>
           </li>
         ))}
       </ul>
@@ -39,11 +43,13 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] ${
+                className={`font-poppins font-normal cursor-pointer text-[16px] hover:text-secondaryColor ${
                   index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
                 } text-white `}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`${nav.link}`} target="_blank" rel="noreferrer">
+                  {nav.title}
+                </a>
               </li>
             ))}
           </ul>

@@ -2,18 +2,22 @@ export const navLinks = [
   {
     id: 'services',
     title: 'SERVICES',
+    link: 'https://dilanka-personal-portfolio.vercel.app/',
   },
   {
     id: 'aboutus',
     title: 'ABOUT US',
+    link: 'https://dilanka-personal-portfolio.vercel.app/',
   },
   {
     id: 'contactus',
     title: 'CONTACT US',
+    link: 'https://dilanka-personal-portfolio.vercel.app/',
   },
   {
     id: 'careers',
     title: 'CAREERS',
+    link: 'https://dilanka-personal-portfolio.vercel.app/',
   },
 ];
 
@@ -23,27 +27,27 @@ export const footerLinks = [
     links: [
       {
         name: 'React',
-        link: 'https://www.google.com',
+        link: 'https://dilanka-personal-portfolio.vercel.app/',
       },
       {
         name: 'Gatsby',
-        link: 'https://www.google.com',
+        link: 'https://dilanka-personal-portfolio.vercel.app/',
       },
       {
         name: 'NextJS',
-        link: 'https://www.google.com',
+        link: 'https://dilanka-personal-portfolio.vercel.app/',
       },
       {
         name: 'NodeJS',
-        link: 'https://www.google.com',
+        link: 'https://dilanka-personal-portfolio.vercel.app/',
       },
       {
         name: 'GraphQL',
-        link: 'https://www.google.com',
+        link: 'https://dilanka-personal-portfolio.vercel.app/',
       },
       {
         name: 'Laravel',
-        link: 'https://www.google.com',
+        link: 'https://dilanka-personal-portfolio.vercel.app/',
       },
     ],
   },
@@ -52,23 +56,23 @@ export const footerLinks = [
     links: [
       {
         name: 'Social media Marketing',
-        link: 'https://www.google.com',
+        link: 'https://dilanka-personal-portfolio.vercel.app/',
       },
       {
         name: 'Web & Mobile App Development',
-        link: 'https://www.google.com',
+        link: 'https://dilanka-personal-portfolio.vercel.app/',
       },
       {
         name: 'Data & Analytics',
-        link: 'https://www.google.com',
+        link: 'https://dilanka-personal-portfolio.vercel.app/',
       },
       {
         name: 'Google Marketing solutions',
-        link: 'https://www.google.com',
+        link: 'https://dilanka-personal-portfolio.vercel.app/',
       },
       {
         name: 'Search Engine Optimization',
-        link: 'https://www.google.com',
+        link: 'https://dilanka-personal-portfolio.vercel.app/',
       },
     ],
   },
